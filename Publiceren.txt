@@ -1,0 +1,51 @@
+INFORIUM ADVANCED — GITHUB PAGES
+
+Dit pakket bevat een zelfstandige, statische website. Alle bronmetadata en de
+zoekfunctie zijn opgenomen in index.html. Er zijn geen externe scripts,
+bouwstappen of server nodig. Je kunt index.html ook lokaal in een browser openen.
+
+PUBLICEREN
+1. Pak het ZIP-bestand uit.
+2. Maak een GitHub-repository aan, bijvoorbeeld inforium-oncologie.
+   Een publieke repository kan GitHub Pages met GitHub Free gebruiken.
+3. Upload index.html, .nojekyll en dit bestand naar de hoofdmap van de repository.
+   Upload de uitgepakte bestanden, niet het ZIP-bestand of een bovenliggende map.
+   Commit de bestanden naar de branch main.
+4. Open Settings > Pages.
+5. Kies bij Source: Deploy from a branch.
+6. Kies branch main en folder / (root), en klik op Save.
+7. GitHub toont na publicatie de link onder Settings > Pages. Het projectadres is
+   meestal https://JOUW-GEBRUIKERSNAAM.github.io/inforium-oncologie/.
+
+Als de repository een andere naam heeft, verandert ook het laatste adresdeel.
+De website bevat geen paden die van die repositorynaam afhankelijk zijn.
+Als je .nojekyll niet ziet na uitpakken, controleer verborgen bestanden. Het
+bestand voorkomt verwerking door Jekyll; index.html blijft het startbestand.
+
+BIJWERKEN
+Vervang index.html en commit de wijziging op de gekozen publicatiebranch.
+De broninventaris is een momentopname en wordt niet automatisch bijgewerkt.
+
+INHOUD EN REIKWIJDTE
+Inventarisatie: 3 oktober 2026.
+4.627 bronitems: 4.504 unieke interne inhoudspagina's en 123 externe verwijzingen.
+1.476 unieke inhoudskoppelingen tussen interne bronitems.
+Professionele Notes, studies, documenten, praktische informatie en
+patiënteninformatie zijn doorzoekbaar. Voor bronnen met een login zijn alleen
+zichtbare metadata opgenomen. Broninhoud en downloads blijven bij de bron.
+Thema's zijn een voorgestelde indeling; medische geschiktheid en actualiteit
+zijn niet afzonderlijk beoordeeld. Dit is een schermvoorstel, geen officiële
+Inforium-applicatie. De patiëntselectie is een demonstratie en verstuurt niets;
+de selectie blijft alleen in het geheugen zolang de pagina geopend is.
+
+BRONNEN
+https://medischeoncologiegroningen.nl/
+https://medischeoncologiegroningen.nl/sitemap/
+https://docs.github.com/en/pages/quickstart
+https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+
+TECHNISCHE CONTROLE
+Het pakket heeft index.html in de hoofdmap, een Nederlandse documenttaal,
+mobiele weergave en alle data lokaal ingebed. De zoekfunctie, paginering,
+filtercombinaties en bronkoppelingen zijn programmatisch gecontroleerd.
+Publicatie naar een echte GitHub-repository is niet uitgevoerd.
